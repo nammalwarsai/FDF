@@ -1,2 +1,3 @@
 this is the sample git file
 this is the thing 
+this is the modified one
