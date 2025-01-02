@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Cards</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      width: 300px;
+      height: 200px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .card-header {
+      background: linear-gradient(to right, #d32f2f, #000);
+      padding: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .card-content {
+      padding: 15px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .card:nth-child(4),
+    .card:nth-child(5) {
+      grid-column: span 2;
+      justify-self: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">HTML</div>
+      <div class="card-content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nulla, eos dolores quisquam mollitia molestiae nemo inventore voluptatem iste ipsa voluptates ratione doloremque veritatis omnis.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">CSS</div>
+      <div class="card-content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nulla, eos dolores quisquam mollitia molestiae nemo inventore voluptatem iste ipsa voluptates ratione doloremque veritatis omnis.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">JavaScript</div>
+      <div class="card-content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nulla, eos dolores quisquam mollitia molestiae nemo inventore voluptatem iste ipsa voluptates ratione doloremque veritatis omnis.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">ReactJS</div>
+      <div class="card-content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nulla, eos dolores quisquam mollitia molestiae nemo inventore voluptatem iste ipsa voluptates ratione doloremque veritatis omnis.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">Angular</div>
+      <div class="card-content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nulla, eos dolores quisquam mollitia molestiae nemo inventore voluptatem iste ipsa voluptates ratione doloremque veritatis omnis.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
